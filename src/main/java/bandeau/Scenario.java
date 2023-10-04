@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * Classe utilitaire pour représenter la classe-association UML
  */
-class ScenarioElement {
+class ScenarioElement extends Thread{
 
     Effect effect;
     int repeats;
